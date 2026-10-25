@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nicholas Cicio – Documentación</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      background: #0b0f19;
+      color: #e2e8f0;
+      line-height: 1.6;
+      padding: 0 16px 80px;
+    }
+    .container { max-width: 800px; margin: 0 auto; }
+    .lang-switch {
+      position: fixed;
+      top: 12px;
+      right: 12px;
+      z-index: 1000;
+      display: flex;
+      gap: 4px;
+      background: #0f172a;
+      padding: 6px;
+      border-radius: 12px;
+      border: 1px solid #334155;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.5);
+    }
+    .lang-switch button {
+      background: #1e293b;
+      color: #cbd5e1;
+      border: 1px solid #475569;
+      padding: 12px 18px;
+      border-radius: 8px;
+      cursor: pointer;
+      font-weight: 700;
+      font-size: 1rem;
+      min-width: 56px;
+    }
+    .lang-switch button.active {
+      background: #3b82f6;
+      color: white;
+      border-color: #3b82f6;
+    }
+    header { text-align: center; padding: 60px 0 32px; }
+    .avatar {
+      width: 120px; height: 120px; border-radius: 50%; object-fit: cover;
+      border: 3px solid #3b82f6; margin-bottom: 20px; background: #1e293b;
+      display: flex; align-items: center; justify-content: center;
+      font-size: 2rem; color: #64748b; margin-left: auto; margin-right: auto;
+    }
+    h1 { font-size: 1.45rem; margin-bottom: 12px; line-height: 1.3; }
+    .subtitle { color: #94a3b8; font-size: 0.95rem; max-width: 620px; margin: 0 auto 8px; }
+    .section {
+      background: #111827; border: 1px solid #1f2937; border-radius: 16px;
+      padding: 24px; margin-bottom: 20px;
+    }
+    .section h2 {
+      font-size: 1.15rem; margin-bottom: 16px; color: #60a5fa;
+    }
+    .section p { margin-bottom: 10px; color: #cbd5e1; }
+    .profile-grid { display: grid; gap: 8px; }
+    .profile-grid strong { color: #e2e8f0; }
+    .socials { display: flex; flex-wrap: wrap; gap: 10px; }
+    .socials a {
+      background: #1e293b; color: #93c5fd; text-decoration: none;
+      padding: 10px 16px; border-radius: 10px; font-size: 0.9rem;
+      border: 1px solid #334155;
+    }
+    .evidence {
+      background: #0f172a; border-left: 4px solid #3b82f6;
+      padding: 14px 16px; margin: 12px 0; border-radius: 0 10px 10px 0;
+    }
+    .evidence .label { font-weight: 600; color: #e2e8f0; margin-bottom: 8px; }
+    .note { font-size: 0.9rem; color: #94a3b8; font-style: italic; margin-top: 8px; }
+    .media { margin-top: 10px; border-radius: 10px; overflow: hidden; border: 1px solid #334155; }
+    .media iframe { display: block; width: 100%; height: 360px; border: none; background: #000; }
+    footer { text-align: center; margin-top: 40px; color: #64748b; font-size: 0.85rem; }
+    a { color: #93c5fd; }
+    .content-en { display: none; }
+    body.lang-en .content-es { display: none; }
+    body.lang-en .content-en { display: block; }
+  </style>
+</head>
+<body>
+  <div class="lang-switch">
+    <button type="button" id="btn-es" class="active">ES</button>
+    <button type="button" id="btn-en">EN</button>
+  </div>
+
+  <!-- SPANISH (default) -->
+  <div class="content-es">
+    <div class="container">
+      <header>
+        <div class="avatar">NC</div>
+        <h1>Nicholas Cicio – el estadounidense en Ecuador con visa de turista que trabaja ilegalmente como creador UGC, no paga los impuestos correspondientes y promueve el turismo sexual al jactarse de tener sexo en público en los manglares de Galápagos</h1>
+        <p class="subtitle">Documentación compilada a partir de sus propias publicaciones y admisiones públicas. Clips alojados en Google Drive.</p>
+      </header>
+
+      <div class="section">
+        <h2>👤 Perfil</h2>
+        <div class="profile-grid">
+          <div><strong>Nombre:</strong> Nicholas Cicio</div>
+          <div><strong>Origen:</strong> Estados Unidos</div>
+          <div><strong>Residencia:</strong> Vilcabamba, Loja, Ecuador</div>
+          <div><strong>Condición migratoria:</strong> Visa / permanencia de turista</div>
+        </div>
+      </div>
+
+      <div class="section">
+        <h2>📱 Redes sociales</h2>
+        <div class="socials">
+          <a href="https://www.instagram.com/nicholasnomad/" target="_blank" rel="noopener">Instagram @nicholasnomad</a>
+          <a href="https://www.tiktok.com/@nicholas.nomad" target="_blank" rel="noopener">TikTok @nicholas.nomad</a>
+        </div>
+      </div>
+
+      <div class="section">
+        <h2>🛂 1. Visa de turista — prohibido trabajar</h2>
+        <p>Nicholas Cicio ha estado viviendo en Ecuador en calidad de turista. Entró a Perú y volvió a ingresar a Ecuador para extender su tiempo en el país. Bajo la ley ecuatoriana, los turistas <strong>no pueden realizar actividades laborales ni económicas</strong>.</p>
+        <p><strong>Base legal:</strong> Ley Orgánica de Movilidad Humana, <strong>Artículo 56</strong> — “Turista es la persona que se desplaza al Ecuador con el ánimo de realizar actividades turísticas y sin el ánimo de radicarse permanentemente en el país. <em>Están prohibidos de realizar actividades laborales o económicas.</em>”</p>
+        <p>Realizar actividades distintas a las permitidas por la categoría migratoria es falta migratoria (Art. 170 LOMH): multa y, en reincidencia, cancelación de la condición migratoria y prohibición de solicitar una nueva por dos años.</p>
+        <div class="evidence">
+          <div class="label">Prueba de que está en visa / permanencia de turista — entrada a Perú y reingreso a Ecuador para extender su estadía</div>
+          <div class="media">
+            <iframe src="https://drive.google.com/file/d/1NiYSIk_qALkrxZUUIlY-OW2bwFUtiJTI/preview" allow="autoplay" loading="lazy" allowfullscreen></iframe>
+          </div>
+          <p class="note">Original: <a href="https://drive.google.com/file/d/1NiYSIk_qALkrxZUUIlY-OW2bwFUtiJTI/view?usp=sharing" target="_blank" rel="noopener">Google Drive</a></p>
+        </div>
+      </div>
+
+      <div class="section">
+        <h2>💼 2. Trabajo ilegal como creador UGC</h2>
+        <p>Nicholas es un creador de contenido UGC (User Generated Content). Trabajar remuneradamente —incluida la creación de contenido comercial para marcas— mientras se está en categoría de turista viola el Artículo 56 de la Ley Orgánica de Movilidad Humana. Tampoco resulta del pago de los impuestos correspondientes por esa actividad en Ecuador.</p>
+        <div class="evidence">
+          <div class="label">Prueba de que es creador UGC y trabaja</div>
+          <div class="media">
+            <iframe src="https://drive.google.com/file/d/1zEG6arWzmvAHlsLfojPbIoNJWKe5qMS6/preview" allow="autoplay" loading="lazy" allowfullscreen></iframe>
+          </div>
+          <p class="note">Original: <a href="https://drive.google.com/file/d/1zEG6arWzmvAHlsLfojPbIoNJWKe5qMS6/view?usp=sharing" target="_blank" rel="noopener">Google Drive</a></p>
+        </div>
+      </div>
+
+      <div class="section">
+        <h2>🏝️ 3. Sexo en público en manglares de Galápagos — promoción de turismo sexual</h2>
+        <p>Nicholas se jacta de haber tenido sexo gay en público en los manglares de Galápagos. Publicar y normalizar ese tipo de conducta en un área protegida y turística promueve el turismo sexual y atenta contra las normas de conducta pública y la conservación del archipiélago.</p>
+        <div class="evidence">
+          <div class="label">Jactándose de tener sexo en público en manglares de Galápagos</div>
+          <div class="media">
+            <iframe src="https://drive.google.com/file/d/1S4PYQsiPGicLTKJpN4JfJ7l2wRSG4jPR/preview" allow="autoplay" loading="lazy" allowfullscreen></iframe>
+          </div>
+          <p class="note">Original: <a href="https://drive.google.com/file/d/1S4PYQsiPGicLTKJpN4JfJ7l2wRSG4jPR/view?usp=sharing" target="_blank" rel="noopener">Google Drive</a></p>
+        </div>
+      </div>
+
+      <div class="section">
+        <h2>⚠️ Por qué esto importa para Ecuador</h2>
+        <p>Un extranjero en categoría de turista que trabaja de forma remunerada (UGC), no regulariza su situación migratoria ni tributaria, y se jacta de sexo en público en Galápagos es un costo y un riesgo para Ecuador: viola la Ley Orgánica de Movilidad Humana (Art. 56), evade el marco fiscal aplicable y proyecta una imagen de turismo sexual en un patrimonio natural del país. Estos hechos plantean preguntas legítimas sobre control migratorio y sanciones.</p>
+      </div>
+
+      <footer>lawfulexpat · documentación a partir de declaraciones públicas</footer>
+    </div>
+  </div>
+
+  <!-- ENGLISH -->
+  <div class="content-en">
+    <div class="container">
+      <header>
+        <div class="avatar">NC</div>
+        <h1>Nicholas Cicio – the American in Ecuador on a tourist visa who works illegally as a UGC creator, does not pay the proper taxes, and promotes sex tourism by bragging about having sex in public in the Galápagos mangroves</h1>
+        <p class="subtitle">Documentation compiled from his own posts and public admissions. Clips hosted on Google Drive.</p>
+      </header>
+
+      <div class="section">
+        <h2>Profile</h2>
+        <div class="profile-grid">
+          <div><strong>Name:</strong> Nicholas Cicio</div>
+          <div><strong>Origin:</strong> United States</div>
+          <div><strong>Location:</strong> Vilcabamba, Loja, Ecuador</div>
+          <div><strong>Immigration status:</strong> Tourist visa / tourist stay</div>
+        </div>
+      </div>
+
+      <div class="section">
+        <h2>Social media</h2>
+        <div class="socials">
+          <a href="https://www.instagram.com/nicholasnomad/" target="_blank" rel="noopener">Instagram @nicholasnomad</a>
+          <a href="https://www.tiktok.com/@nicholas.nomad" target="_blank" rel="noopener">TikTok @nicholas.nomad</a>
+        </div>
+      </div>
+
+      <div class="section">
+        <h2>1. Tourist visa — work prohibited</h2>
+        <p>Nicholas Cicio has been living in Ecuador as a tourist. He entered Peru and re-entered Ecuador to extend his time in the country. Under Ecuadorian law, tourists <strong>may not engage in labor or economic activities</strong>.</p>
+        <p><strong>Legal basis:</strong> Organic Law of Human Mobility (<em>Ley Orgánica de Movilidad Humana</em>), <strong>Article 56</strong> — a tourist is a person who travels to Ecuador for tourism purposes without intent to settle permanently. <em>They are prohibited from carrying out labor or economic activities.</em></p>
+        <p>Performing activities other than those permitted by the immigration category is a migration offense (Art. 170 LOMH): fine and, on repeat offense, cancellation of status and a two-year ban on applying for a new one.</p>
+        <div class="evidence">
+          <div class="label">Proof of tourist status — entry to Peru and re-entry to Ecuador to extend stay</div>
+          <div class="media">
+            <iframe src="https://drive.google.com/file/d/1NiYSIk_qALkrxZUUIlY-OW2bwFUtiJTI/preview" allow="autoplay" loading="lazy" allowfullscreen></iframe>
+          </div>
+          <p class="note">Original: <a href="https://drive.google.com/file/d/1NiYSIk_qALkrxZUUIlY-OW2bwFUtiJTI/view?usp=sharing" target="_blank" rel="noopener">Google Drive</a></p>
+        </div>
+      </div>
+
+      <div class="section">
+        <h2>2. Illegal work as a UGC creator</h2>
+        <p>Nicholas is a UGC (User Generated Content) creator. Paid work — including commercial content for brands — while on tourist status violates Article 56 of the Organic Law of Human Mobility. It also does not appear he is paying the corresponding taxes on that activity in Ecuador.</p>
+        <div class="evidence">
+          <div class="label">Proof he is a UGC creator and is working</div>
+          <div class="media">
+            <iframe src="https://drive.google.com/file/d/1zEG6arWzmvAHlsLfojPbIoNJWKe5qMS6/preview" allow="autoplay" loading="lazy" allowfullscreen></iframe>
+          </div>
+          <p class="note">Original: <a href="https://drive.google.com/file/d/1zEG6arWzmvAHlsLfojPbIoNJWKe5qMS6/view?usp=sharing" target="_blank" rel="noopener">Google Drive</a></p>
+        </div>
+      </div>
+
+      <div class="section">
+        <h2>3. Public sex in Galápagos mangroves — promoting sex tourism</h2>
+        <p>Nicholas brags about having gay sex in public in the mangroves of the Galápagos. Publishing and normalizing that behavior in a protected, touristic area promotes sex tourism and undermines public-order and conservation norms in the archipelago.</p>
+        <div class="evidence">
+          <div class="label">Bragging about having sex in public in the Galápagos mangroves</div>
+          <div class="media">
+            <iframe src="https://drive.google.com/file/d/1S4PYQsiPGicLTKJpN4JfJ7l2wRSG4jPR/preview" allow="autoplay" loading="lazy" allowfullscreen></iframe>
+          </div>
+          <p class="note">Original: <a href="https://drive.google.com/file/d/1S4PYQsiPGicLTKJpN4JfJ7l2wRSG4jPR/view?usp=sharing" target="_blank" rel="noopener">Google Drive</a></p>
+        </div>
+      </div>
+
+      <div class="section">
+        <h2>Why this matters for Ecuador</h2>
+        <p>A foreigner on tourist status who performs paid work (UGC), does not regularize immigration or tax compliance, and brags about public sex in the Galápagos is a cost and a risk to Ecuador: it violates the Organic Law of Human Mobility (Art. 56), sidesteps applicable tax rules, and projects a sex-tourism image onto a national natural heritage site. These facts raise legitimate questions about immigration control and sanctions.</p>
+      </div>
+
+      <footer>lawfulexpat · documentation from public statements</footer>
+    </div>
+  </div>
+
+  <script>
+    const btnEs = document.getElementById('btn-es');
+    const btnEn = document.getElementById('btn-en');
+    btnEs.addEventListener('click', () => {
+      document.body.classList.remove('lang-en');
+      btnEs.classList.add('active');
+      btnEn.classList.remove('active');
+    });
+    btnEn.addEventListener('click', () => {
+      document.body.classList.add('lang-en');
+      btnEn.classList.add('active');
+      btnEs.classList.remove('active');
+    });
+  </script>
+</body>
+</html>
